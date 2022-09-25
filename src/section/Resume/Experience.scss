@@ -1,0 +1,35 @@
+.app__we{
+    width: var(--sw);
+    height: var(--sh);
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    overflow-y: scroll;
+    div{
+        
+        margin: 0 auto;
+        box-sizing: border-box;
+        border-bottom: 4px solid gray;
+        box-shadow: 2px 4px 6px gray,2px -4px 6px gray;
+        margin-top: 1vh;
+        height: 70vh;
+        width: 70vw;
+        img{
+            margin-top: 5vh;
+            width:40vw;
+            height:35vh ;
+        }
+        
+        h4{
+            margin: 0 auto;
+            width: 70vw;
+            justify-content: start;
+            text-align: start;
+        }
+        .btn{
+            transform: translateY(20vh);
+        }
+    }
+       
+}

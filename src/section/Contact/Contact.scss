@@ -1,0 +1,72 @@
+.app__contact{
+    width: var(--sw);
+    height: var(--sh);
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    form{
+        width: var(--sw);
+        label{
+            width: calc(var(--sw) / 2);
+            height: 5vh;
+        }
+        input{
+            width:calc(var(--sw) / 2);
+            height: 5vh;
+            font-size: x-large;
+
+            &:focus{
+                background-color: rgb(238, 227, 255);
+
+            }
+            
+        }
+        
+        textarea{
+            width:calc(var(--sw) / 2);
+            height: 25vh;
+            font-size: x-large;
+
+            &:focus{
+                background-color: rgb(238, 227, 255);
+            }
+        }
+    }
+    h1.pt-text{
+        width: var(--sw);
+    }
+    .urls{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        width: var(--al);
+        i{
+            color: white;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            transform: scale(2);
+           
+        }
+
+        .fa-linkedin:hover{
+            color: blue ;
+            transition: 1s ease-in-out;
+        }
+        .fa-github:hover{
+            color: black ;
+            transition: 1s ease-in-out;
+        }
+        .fa-gitlab:hover{
+            color: orangered ;
+            transition: 0.5s ease-in-out;
+        }
+    }
+
+    
+}

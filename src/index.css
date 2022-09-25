@@ -1,0 +1,29 @@
+:root{
+    /* backgrounds */
+    --bgc:rgb(220,220,220); 
+    /* fonts */
+
+    --f:'Courier New', Courier, monospace;
+    --f-s:bold;
+    --font-w:medium;
+    
+    /* dimensions */
+
+    /* page width and height*/
+    --w:100vw;
+    --h:100vh;
+
+    /* sections width and height */
+    --sw:var(--ar);
+    --sh:var(--h);
+
+    /* asides width */
+    --al:15vw;
+    --ar:calc(var(--w) - var(--al));
+    /* --ar:90vw; */
+
+    /* images */
+
+    --image-about:url("./assets/website_image.jpeg");
+
+}

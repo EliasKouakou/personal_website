@@ -1,0 +1,13 @@
+.app__resume{
+    width: var(--sw);
+    height: var(--sh);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    margin:0 auto;
+    overflow-y: scroll;
+    .resume{
+        margin-top:2vh;
+    }
+}

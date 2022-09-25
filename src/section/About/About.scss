@@ -1,0 +1,36 @@
+.app__about{
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0 auto;
+    overflow-y: scroll;
+    width: var(--sw);
+    height: var(--sh);
+
+    h1{
+        margin: 0 auto;
+        padding-top: 5vh;
+    }
+    .image{
+        margin: 0 auto;
+        a{
+            content: var(--image-about);
+            width: 15vw;
+            clip-path: circle();
+        }
+       
+        
+    }
+    .about__text{
+        margin: 0 auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        
+    }
+
+    @media screen and (max-width:900px) {
+        .about__text{
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,234 @@
+.app__layout{
+    width: var(--w);
+    height: var(--h);
+    .content{
+        display: inline-flex;
+        flex-direction: row;
+        color: white;
+
+        .aside__left{
+            color: white;
+            background-color: rgb(49, 43, 40);
+            width: var(--al);
+            height: var(--sh);
+            /* backgrounds */
+            background:url("../../assets/wonder.jpg");
+            // background:url("../../assets/bg.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-clip: border-box;
+            display: inline-flex;
+            flex-direction: column;
+            .simple__about{
+                width: var(--al);
+                height: 20vh;
+                h1{
+                    margin-left: 2vw;
+                   
+                }
+                .info{
+                    margin-left: 2vw;
+                }
+            }
+            nav{
+                left: 0;
+                width: var(--al);
+                height: 50vh;
+                ul{
+                    transform: translateY(5vh);
+                    list-style: none;
+                    margin: 0;
+                    left: 0;
+                    display: inline-flex;
+                    flex-direction: column;
+            
+                    li{
+                        margin-top: 2.5vh;
+                        color: white;
+                        opacity: 0.5;
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            font-weight: bold;
+                            span{
+                            }
+                        }
+                        &:hover{
+                            opacity: 1;
+                            transition: 0.5s ease-in-out;
+                        }
+
+                        &::before{
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+
+            .urls{
+                
+                bottom: 0;
+                display: inline-flex;
+                flex-direction: row;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+                margin: 0 auto;
+                width: var(--al);
+                height: 20vh;
+                i{
+                    color: white;
+                    margin-left: 1vw;
+                    margin-right: 1vw;
+                    transform: scale(2);
+                   
+                }
+
+                .fa-linkedin:hover{
+                    color: blue ;
+                }
+                .fa-github:hover{
+                    color: black ;
+                }
+                .fa-gitlab:hover{
+                    color: orangered ;
+                }
+            }
+           footer{
+            margin: 0 auto;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+           }
+        
+       
+        }
+    
+        .aside__right{
+            color: black;
+            width: var(--ar);
+            height: var(--sh);
+            background-color: rgb(231, 231, 231);
+        }
+
+        @media screen and (max-width:1200px) {
+            :root{
+                --sw:100vw;
+                --sh:90vh;
+                --ar:100vw;
+                --al:0vw;
+            }
+            flex-direction: column;
+            .aside__right{
+                width: var(--w);
+                height: 85vh;
+            }
+            .aside__left{
+                flex-direction: row;
+                width: 100vw;
+                height: 15vh;
+                align-content: center;
+                text-align: center;
+                justify-content: center;
+                h1{
+                    height: 15vh;
+                    width: 15vw;
+                    font-size: small;
+                }
+                nav{
+                    height: 15vh;
+                    transform: translateX(-5vh);
+                    width: 70vw;
+                    ul{
+                        flex-direction: row;
+                        li{
+                            margin-right: 2vw ;
+
+                            span{
+                                font-size: small;
+                            }
+                        }
+                    }
+                }
+
+                .urls{
+                    float: right;
+                    transform: translateX(20vw);
+                    height: 15vh;
+                    width: 15vw;
+                    a{
+                        margin-left: 1vw;
+                        transform: scale(0.5);
+                    }
+                }
+                footer{
+                    width: 0;
+                    display: none;
+                }
+            }
+        }
+        @media screen and (max-width:900px) {
+            :root{
+                --sw:100vw;
+                --sh:90vh;
+                --ar:100vw;
+                --al:0vw;
+            }
+            flex-direction: column;
+            .aside__right{
+                width: var(--w);
+                height: 90vh;
+            }
+            .aside__left{
+                flex-direction: row;
+                width: var(--w);
+                height: 10vh;
+                align-content: center;
+                text-align: center;
+                justify-content: center;
+
+                h1{
+                    height: 15vh;
+                    font-size: small;
+                    width: 10vw;
+                }
+                nav{
+                    height: 15vh;
+                    justify-content: center;
+                    text-align: center;
+                    align-content: center;
+                    width: 90vw;
+
+                    ul{
+                        flex-direction: row;
+                        transform: translateX(-5vh);
+                        li{
+                            margin-right: 2vw ;
+                            span{
+                                font-size: small;
+                            }
+                        }
+                    }
+                }
+
+                .urls{
+                    display: none;
+                    float: right;
+                    transform: translateX(0);
+                    height: 15vh;
+                    width: 0;
+                    a{
+                        margin-left: 1vw;
+                        transform: scale(0.5);
+                    }
+                }
+                footer{
+                    display: none;
+                }
+            }
+        }
+    }
+  
+   
+}

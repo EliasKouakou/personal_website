@@ -1,0 +1,12 @@
+export {default as About} from './About/About'
+export {default as Contact} from './Contact/Contact'
+export {default as Projects} from './Projects/Projects'
+export {default as Resume} from './Resume/Resume'
+export {default as Experience} from './Resume/Experience'
+export {default as Posts} from './Posts/Posts'
+export {default as Post_i} from './Posts/Post_i'
+
+export {default as Robotics} from './Projects/Robotics/Robotics'
+export {default as Automative} from './Projects/Automative/Automative'
+export {default as Maritime} from './Projects/Maritime/Maritime'
+export {default as Aerospace} from './Projects/Aerospace/Aerospace'
