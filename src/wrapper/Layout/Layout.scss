@@ -87,12 +87,17 @@
 
                 .fa-linkedin:hover{
                     color: blue ;
+                    transition: 0.5s ease-in-out;
                 }
                 .fa-github:hover{
                     color: black ;
+                    transition: 0.5s ease-in-out;
+
                 }
                 .fa-gitlab:hover{
                     color: orangered ;
+                    transition: 0.5s ease-in-out;
+
                 }
             }
            footer{
