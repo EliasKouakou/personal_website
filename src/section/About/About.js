@@ -9,7 +9,7 @@ const About = () => {
         <a href='/Resume'></a>
       </div>
       <div className='about__text'>
-        <h4>Welcome to my little corner of the internet where i host some of my projects as well my toughts.</h4>
+        <h4>Welcome to my little corner of the internet where I host some of my projects as well my toughts.</h4>
         <h5>
           
           My name is <a href='/Resume'>KOUAKOU Elias Michaël</a>, and i am a Mechatronic engineer that graduate in 2022 

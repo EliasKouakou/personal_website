@@ -7,6 +7,6 @@ export {default as Posts} from './Posts/Posts'
 export {default as Post_i} from './Posts/Post_i'
 
 export {default as Robotics} from './Projects/Robotics/Robotics'
-export {default as Automative} from './Projects/Automative/Automative'
+export {default as Automotive} from './Projects/Automotive/Automotive'
 export {default as Maritime} from './Projects/Maritime/Maritime'
 export {default as Aerospace} from './Projects/Aerospace/Aerospace'

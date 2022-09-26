@@ -2,7 +2,6 @@
   "name": "simple-website",
   "version": "1.0.0",
   "description": "simple website for hosting my public work",
-  "homepage": "https://github.com/EliasKouakou/personal_website.git",
   "main": "index.js",
   "author": "elias kouakou",
   "license": "ISC",
@@ -19,7 +18,8 @@
     "react-router-dom": "^6.4.1",
     "react-scripts": "^5.0.1",
     "sass": "^1.55.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "three": "^0.144.0"
   },
   "scripts": {
     "start": "react-scripts start",

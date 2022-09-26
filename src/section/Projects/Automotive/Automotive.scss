@@ -1,0 +1,60 @@
+:root{
+    --automotive-h:calc(calc(var(--sh) / 2) - 10vh);
+    --automotive-w:calc(calc(var(--sw) / 2) - 10vh);
+}
+
+.app__automotive{
+    width: var(--sw);
+    height: var(--sh);
+    overflow-y: scroll;
+    // background: url('../../../assets/wonder.jpg') ;
+    .automotive__content{
+        width: var(--sw);
+        height: var(--sh);
+        display: grid;
+        grid-template-columns: auto  auto;
+        grid-template-rows: auto;
+        div.automotive{
+            margin: 0 auto;
+            // overflow-y:scroll;
+            height: var(--post-h) ;
+            width: var(--post-w);
+            margin-bottom: 2vh;
+            // border: 1px solid gray;
+            box-sizing: border-box;
+            box-shadow: 1px 2px 3px black;
+            justify-content: center;
+            text-align: center;
+            h2{
+
+            }
+
+            img{
+                margin: 0 auto;
+                height:calc(var(--post-h) / 4) ;
+                width:calc(var(--post-w) /2) ;
+            }
+
+            h3{
+
+            }
+
+            p{
+
+            }
+            a{
+                width: calc(var(--sw) - 10vw) ;
+                margin: 0 auto;
+                justify-content: center;
+                text-align: center;
+                align-content: center;
+               
+                .btn{
+                    transform: translateY(10vh); //check the landscape mode
+                    font-size: small;
+                    width: 15vw;
+                }
+            }
+        }
+    }
+}
