@@ -51,7 +51,7 @@ const Automotive= () => {
   })
   }
   return (
-    <div className='app__automotive'>
+    <div className='app__automotive section'>
       <h1>Automotive</h1>
       <div className='automotive__content'></div>
     </div>

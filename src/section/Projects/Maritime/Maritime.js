@@ -51,7 +51,7 @@ const Maritime= () => {
   })
   }
   return (
-    <div className='app__maritime'>
+    <div className='app__maritime section'>
       <h1>Maritime</h1>
       <div className='maritime__content'></div>
     </div>

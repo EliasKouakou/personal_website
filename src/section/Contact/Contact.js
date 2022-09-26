@@ -10,7 +10,7 @@ const Contact = () => {
   }
   
   return (
-    <div className='app__contact'>
+    <div className='app__contact section'>
       <form action='' target=''>
         <label htmlFor='name'><h1>Name</h1></label>
         <input type={"text"} name="name"  placeholder="name" required/>

@@ -51,7 +51,7 @@ const Aerospace= () => {
   })
   }
   return (
-    <div className='app__aerospace'>
+    <div className='app__aerospace section'>
       <h1>Aerospace</h1>
       <div className='aerospace__content'></div>
     </div>

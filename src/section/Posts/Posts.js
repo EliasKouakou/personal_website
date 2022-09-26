@@ -51,7 +51,7 @@ const Posts = () => {
   })
   }
   return (
-    <div className='app__posts'>
+    <div className='app__posts section'>
       <h1>Posts</h1>
       <div className='post__content'></div>
     </div>

@@ -51,7 +51,7 @@ const Robotics = () => {
   })
   }
   return (
-    <div className='app__robotics'>
+    <div className='app__robotics section'>
       <h1>Robotics</h1>
       <div className='robotics__content'></div>
     </div>

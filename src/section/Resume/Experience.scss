@@ -6,12 +6,24 @@
     align-content: center;
     margin: 0 auto;
     overflow-y: scroll;
+    // &:nth-child(1),&:nth-child(2){
+    //     display: contents;
+
+    // }
+    // &:nth-child(-n){
+    //     display: none;
+    // }
+    // &:nth-last-child(2n+1){
+    //     display: none;
+    // }
     div{
-        
         margin: 0 auto;
         box-sizing: border-box;
-        border-bottom: 4px solid gray;
-        box-shadow: 2px 4px 6px gray,2px -4px 6px gray;
+        // border-bottom: 4px solid gray;
+        &:hover{
+        box-shadow: 2px 4px 6px rgb(101, 88, 101),-2px -4px 6px rgb(97, 81, 97);
+        transition: 1s ease-out;
+        }
         margin-top: 1vh;
         height: 70vh;
         width: 70vw;
@@ -28,7 +40,8 @@
             text-align: start;
         }
         .btn{
-            transform: translateY(20vh);
+            font-size: small;
+            // transform: translateY(20vh);
         }
     }
        

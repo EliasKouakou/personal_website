@@ -3,7 +3,7 @@ import { Layout } from '../../wrapper'
 import './About.scss'
 const About = () => {
   return (
-    <div className='app__about'>
+    <div className='app__about section'>
       <h1>KOUAKOU Elias Michaël</h1>
       <div className='image'>
         <a href='/Resume'></a>

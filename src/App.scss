@@ -1,5 +1,5 @@
 body{
-    // background-color: var(--bgc);
+    background-color: var(--bgc);
     font-family: var(--f);
     font-size: var(--f-s);
     font-weight: var(--f-w);
@@ -30,4 +30,9 @@ body{
         opacity: 1;
         transition: 0.5s ease-in-out;
     }
+}
+
+
+.section{
+    background-color: white;
 }

@@ -9,7 +9,7 @@ const Layout = (Component) => function HOC(){
         <main className='content'>
             <aside className='aside__left'>
                 <div className='simple__about'>
-                    <h1>KOUAKOU Elias Michaël</h1>
+                    <h1>KOUAKOU<br/> Elias<br/> Michaël</h1>
                     {/* <p className='p-text info'> Engineering<br/> Programming<br/> Drawing</p> */}
                 </div>
                 

@@ -17,7 +17,7 @@
         div.aerospace{
             margin: 0 auto;
             // overflow-y:scroll;
-            height: var(--post-h) ;
+            // height: var(--post-h) ;
             width: var(--post-w);
             margin-bottom: 2vh;
             // border: 1px solid gray;
@@ -50,7 +50,7 @@
                 align-content: center;
                
                 .btn{
-                    transform: translateY(10vh); //check the landscape mode
+                    // transform: translateY(10vh); //check the landscape mode
                     font-size: small;
                     width: 15vw;
                 }

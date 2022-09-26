@@ -4,7 +4,7 @@ import { Layout } from '../../wrapper'
 const workExp = require('../../assets/WorkExp/workex_content.json')
 const Experience = () => {
   return (
-    <div className='app__we'>
+    <div className='app__we section'>
         <h1>WorkExperience</h1>
         {
           workExp.map((we,key)=>{

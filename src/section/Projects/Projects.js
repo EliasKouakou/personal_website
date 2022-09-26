@@ -18,10 +18,10 @@ const Proejcts = () => {
                 
                 ],
                 "Automotive":[
-                  require("../../assets/Projects_images/automative/byke.jpg"),
-                  require("../../assets/Projects_images/automative/car.jpg"),
-                  require("../../assets/Projects_images/automative/mining.jpg"),
-                  require("../../assets/Projects_images/automative/train.jpg")
+                  require("../../assets/Projects_images/automotive/byke.jpg"),
+                  require("../../assets/Projects_images/automotive/car.jpg"),
+                  require("../../assets/Projects_images/automotive/mining.jpg"),
+                  require("../../assets/Projects_images/automotive/train.jpg")
               
               ],
                 "Maritime":[
@@ -39,7 +39,7 @@ const Proejcts = () => {
                   require("../../assets/Projects_images/aerospace/spaceX.jpg")
               ]}
   return (
-    <div className='app__projects'>
+    <div className='app__projects section'>
       {
       category.map((value,key)=>{
         const IMG= carousel[value]
