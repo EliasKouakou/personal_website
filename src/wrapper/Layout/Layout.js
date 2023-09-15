@@ -35,7 +35,7 @@ const Layout = (Component) => function HOC(){
                     }
                 </div>
             <footer>
-                <p> &copy; 2022 K.E.M </p>
+                <p> &copy; 2023 K.E.M </p>
             </footer>
 
 

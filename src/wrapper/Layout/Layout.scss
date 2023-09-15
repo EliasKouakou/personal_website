@@ -194,129 +194,129 @@
     }
     
 }
-@media screen and (max-width:1200px) and (orientation:landscape) {
-    .app__layout{
-        width: var(--w);
-        height: var(--h);
-        .content{
-            display: inline-flex;
-            flex-direction: row;
-            color: white;
+// @media screen and (max-width:1200px) and (orientation:landscape) {
+//     .app__layout{
+//         width: var(--w);
+//         height: var(--h);
+//         .content{
+//             display: inline-flex;
+//             flex-direction: row;
+//             color: white;
     
-            .aside__left{
-                color: white;
-                background-color: rgb(49, 43, 40);
-                width: var(--al);
-                height: var(--sh);
-                /* backgrounds */
-                background:url("../../assets/wonder.jpg");
-                // background:url("../../assets/bg.jpg");
-                background-size: cover;
-                background-repeat: no-repeat;
-                background-clip: border-box;
-                display: inline-flex;
-                flex-direction: column;
-                .simple__about{
-                    width: var(--al);
-                    height: 20vh;
-                    h1{
-                        margin-left: 2vw;
+//             .aside__left{
+//                 color: white;
+//                 background-color: rgb(49, 43, 40);
+//                 width: var(--al);
+//                 height: var(--sh);
+//                 /* backgrounds */
+//                 background:url("../../assets/wonder.jpg");
+//                 // background:url("../../assets/bg.jpg");
+//                 background-size: cover;
+//                 background-repeat: no-repeat;
+//                 background-clip: border-box;
+//                 display: inline-flex;
+//                 flex-direction: column;
+//                 .simple__about{
+//                     width: var(--al);
+//                     height: 20vh;
+//                     h1{
+//                         margin-left: 2vw;
                        
-                    }
-                    .info{
-                        margin-left: 2vw;
-                    }
-                }
-                nav{
-                    left: 0;
-                    width: var(--al);
-                    height: 50vh;
-                    ul{
-                        transform: translateY(5vh);
-                        list-style: none;
-                        margin: 0;
-                        left: 0;
-                        display: inline-flex;
-                        flex-direction: column;
+//                     }
+//                     .info{
+//                         margin-left: 2vw;
+//                     }
+//                 }
+//                 nav{
+//                     left: 0;
+//                     width: var(--al);
+//                     height: 50vh;
+//                     ul{
+//                         transform: translateY(5vh);
+//                         list-style: none;
+//                         margin: 0;
+//                         left: 0;
+//                         display: inline-flex;
+//                         flex-direction: column;
                 
-                        li{
-                            margin-top: 2.5vh;
-                            color: white;
-                            opacity: 0.5;
-                            a{
-                                text-decoration: none;
-                                color: white;
-                                font-weight: bold;
-                                span{
-                                }
-                            }
-                            &:hover{
-                                opacity: 1;
-                                transition: 0.5s ease-in-out;
-                            }
+//                         li{
+//                             margin-top: 2.5vh;
+//                             color: white;
+//                             opacity: 0.5;
+//                             a{
+//                                 text-decoration: none;
+//                                 color: white;
+//                                 font-weight: bold;
+//                                 span{
+//                                 }
+//                             }
+//                             &:hover{
+//                                 opacity: 1;
+//                                 transition: 0.5s ease-in-out;
+//                             }
     
-                            &::before{
-                                margin: 0;
-                                padding: 0;
-                            }
-                        }
-                    }
-                }
+//                             &::before{
+//                                 margin: 0;
+//                                 padding: 0;
+//                             }
+//                         }
+//                     }
+//                 }
     
-                .urls{
+//                 .urls{
                     
-                    bottom: 0;
-                    display: inline-flex;
-                    flex-direction: row;
-                    justify-content: center;
-                    text-align: center;
-                    align-items: center;
-                    margin: 0 auto;
-                    width: var(--al);
-                    height: 20vh;
-                    i{
-                        color: white;
-                        margin-left: 1vw;
-                        margin-right: 1vw;
-                        transform: scale(2);
+//                     bottom: 0;
+//                     display: inline-flex;
+//                     flex-direction: row;
+//                     justify-content: center;
+//                     text-align: center;
+//                     align-items: center;
+//                     margin: 0 auto;
+//                     width: var(--al);
+//                     height: 20vh;
+//                     i{
+//                         color: white;
+//                         margin-left: 1vw;
+//                         margin-right: 1vw;
+//                         transform: scale(2);
                        
-                    }
+//                     }
     
-                    .fa-linkedin:hover{
-                        color: blue ;
-                        transition: 0.5s ease-in-out;
-                    }
-                    .fa-github:hover{
-                        color: black ;
-                        transition: 0.5s ease-in-out;
+//                     .fa-linkedin:hover{
+//                         color: blue ;
+//                         transition: 0.5s ease-in-out;
+//                     }
+//                     .fa-github:hover{
+//                         color: black ;
+//                         transition: 0.5s ease-in-out;
     
-                    }
-                    .fa-gitlab:hover{
-                        color: orangered ;
-                        transition: 0.5s ease-in-out;
+//                     }
+//                     .fa-gitlab:hover{
+//                         color: orangered ;
+//                         transition: 0.5s ease-in-out;
     
-                    }
-                }
-               footer{
-                margin: 0 auto;
-                justify-content: center;
-                text-align: center;
-                align-items: center;
-               }
+//                     }
+//                 }
+//                footer{
+//                 margin: 0 auto;
+//                 justify-content: center;
+//                 text-align: center;
+//                 align-items: center;
+//                }
             
            
-            }
+//             }
         
-            .aside__right{
-                color: black;
-                width: var(--ar);
-                height: var(--sh);
-                background-color: rgb(231, 231, 231);
-            }
+//             .aside__right{
+//                 color: black;
+//                 width: var(--ar);
+//                 height: var(--sh);
+//                 background-color: rgb(231, 231, 231);
+//             }
     
             
       
        
-    }
-    }
-}
+//     }
+//     }
+// }

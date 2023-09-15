@@ -1,6 +1,6 @@
 .app__projects{
     width: var(--sw);
-    height: var(--sh);
+    height:var(--sh);
     margin: 0 auto;
     justify-content: center ;
     text-align: center;
@@ -8,10 +8,13 @@
     overflow-y: scroll;
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     
     .carousel{
         // position: relative;
+        justify-content: center ;
+        text-align: center;
+        align-content: center;
         width: 30vw;
         height:35vw;
         list-style: none;
@@ -40,10 +43,12 @@
             list-style: none;
             width: 30vw;
             height:30vw;
+            clip-path: fill-box;
             opacity: 0.75;
             &:hover{
                 opacity: 1;
                 transition: 0.25s ease-in-out;
+             
             }
             }
 

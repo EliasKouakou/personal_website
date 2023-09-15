@@ -1,6 +1,8 @@
 :root{
     --post-h:calc(calc(var(--sh) / 2) - 10vh);
-    --post-w:calc(calc(var(--sw) / 2) - 10vh);
+    --post-w2:calc(calc(var(--sw) / 2) - 10vh);
+    --post-w3:calc(calc(var(--sw) / 3) - 10vh);
+
 }
 
 .app__posts{
@@ -12,17 +14,27 @@
         width: var(--sw);
         height: var(--sh);
         display: grid;
-        grid-template-columns: auto  auto;
+        grid-template-columns: auto  auto auto;
         grid-template-rows: auto;
+        @media screen and (max-width:720px) {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: auto;
+
+        }
         div.post{
             margin: 0 auto;
             // height: var(--post-h) ;
-            width: var(--post-w);
+            width: var(--post-w3);
             margin-bottom: 2vh;
             box-sizing: border-box;
             box-shadow: 1px 2px 3px black;
             justify-content: center;
             text-align: center;
+            @media  media and (max-width:720px) {
+            width: var(--post-w2);
+                
+            }
             h2{
 
             }
@@ -30,11 +42,11 @@
             img{
                 margin: 0 auto;
                 height:calc(var(--post-h) / 4) ;
-                width:calc(var(--post-w) /2) ;
+                width:calc(var(--post-w3) /2) ;
             }
 
             h3{
-
+               
             }
 
             p{

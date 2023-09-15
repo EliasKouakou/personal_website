@@ -7,9 +7,10 @@ import { motion } from 'framer-motion';
         
 //use less heavy image
 const Proejcts = () => {
-  var category=["Robotics","Automotive","Maritime","Aerospace"]
+  var category=["Robotics","Automotive","Maritime","Aerospace","Game","Software"]
   // var carousel={"Robotics":require("../../assets/Projects_images/robotics_urls.json"),"Automotive":require("../../assets/Projects_images/automative_urls.json"),"Maritime":require("../../assets/Projects_images/maritime_urls.json"),"Aerospace":require("../../assets/Projects_images/aerospace_urls.json")}
   var carousel={"Robotics":[
+                    require("../../assets/Projects_images/robotics/robotics.jfif"),
                     require("../../assets/Projects_images/robotics/asimo.jpg"),
                     require("../../assets/Projects_images/robotics/lego.jpg"),
                     require("../../assets/Projects_images/robotics/mechanical_arm.jpg"),
@@ -18,6 +19,7 @@ const Proejcts = () => {
                 
                 ],
                 "Automotive":[
+                  require("../../assets/Projects_images/automotive/automotive.jpg"),
                   require("../../assets/Projects_images/automotive/byke.jpg"),
                   require("../../assets/Projects_images/automotive/car.jpg"),
                   require("../../assets/Projects_images/automotive/mining.jpg"),
@@ -25,11 +27,13 @@ const Proejcts = () => {
               
               ],
                 "Maritime":[
+                  require("../../assets/Projects_images/maritime/maritime.jpg"),
                   require("../../assets/Projects_images/maritime/boat.jpg"),
                   require("../../assets/Projects_images/maritime/cockpit.jpg"),
                   require("../../assets/Projects_images/maritime/loading_bay.jpg")
               ],
                 "Aerospace":[
+                  require("../../assets/Projects_images/aerospace/aerospace.jpg"),
                   require("../../assets/Projects_images/aerospace/cockpit.jpg"),
                   require("../../assets/Projects_images/aerospace/engine.jpg"),
                   require("../../assets/Projects_images/aerospace/helicopter.jpg"),
@@ -37,6 +41,13 @@ const Proejcts = () => {
                   require("../../assets/Projects_images/aerospace/lockheed.jpg"),
                   require("../../assets/Projects_images/aerospace/plane.jpg"),
                   require("../../assets/Projects_images/aerospace/spaceX.jpg")
+              ],
+              "Software":[
+                  require("../../assets/Projects_images/software/software.jpeg")
+              ],
+              "Game":[
+                require("../../assets/Projects_images/game/game.jfif")
+
               ]}
   return (
     <div className='app__projects section'>

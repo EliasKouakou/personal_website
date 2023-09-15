@@ -7,7 +7,9 @@
     text-align: center;
     margin:0 auto;
     width: var(--sw);
-    &::nth-child(1),&::nth-child(2){
+    height: calc(var(--sh) / 1);
+    div.container{
+        margin-top:5vh;
         height: 100px;
         margin-left: 2vw;
         margin-right: 2vw;
@@ -23,13 +25,16 @@
                 margin-right: 1vw;
             }
         }
+    
+    
        
     @media screen and (max-width:1200px) {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: auto auto auto;
-       
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(3,1fr);
     }
     }
+
+
     
 }

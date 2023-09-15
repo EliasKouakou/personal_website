@@ -25,7 +25,13 @@ const Posts = () => {
       img.setAttribute("src",value.img)
 
       var date = document.createElement("h3")
-      date.innerHTML = value.date
+      date.innerHTML = "<i className='fa fa-calendar></i>'" + value.date
+
+      var keywords = document.createElement('div')
+      keywords.setAttribute('class',"keywords")
+
+      //populate keywords with keywords from posts_urls
+
 
       var summary = document.createElement("p")
       summary.innerHTML = value.summary
