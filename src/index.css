@@ -24,7 +24,8 @@
 
     /* images */
 
-    --image-about:url("./assets/website_image.jpeg");
-
+    --image-about:url("./assets/website_img1.JPG");
+    /* --image-about:url("./assets/cv_image.jpeg"); */
+    --logo: url("./assets/logo4.png");
 }
 

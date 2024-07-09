@@ -55,7 +55,6 @@ const Proejcts = () => {
       category.map((value,key)=>{
         const IMG= carousel[value]
         return (
-
           <Carousel 
           className={`${value} carousel`} 
           key={`${key}`}
@@ -64,9 +63,7 @@ const Proejcts = () => {
           swipe={true}
           >
               {
-               
                     IMG.map((img,keys)=>{
- 
                         return(
                           <motion.div className='images' keys={img+keys}
                           whileInView={{ opacity: [0, 1] }}
@@ -75,11 +72,8 @@ const Proejcts = () => {
                               <a  href={`/Projects/${value}`}><img src={img}/></a>
                               <p>{value.toUpperCase()}</p>
                           </motion.div>
-                          
                         )
-                     
                     })
-                  
               }
           </Carousel>
         )

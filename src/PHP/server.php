@@ -14,7 +14,8 @@
     $message = htmlspecialchars($_POST['message']);
     $body = wordwrap($message, 70, "r\n");
     $to = "elmichaellangelo@gmail.com";
-    $psswd = getenv('PASSWORD');
+    $psswd = "MDPgmail123*";
+    echo $psswd;
 
     function sendMail($to, $from, $from_name, $subject, $body, $psswd) {
         $mail = new PHPMailer(true);  // Cree un nouvel objet PHPMailer
@@ -24,8 +25,8 @@
         $mail->SMTPAuth = true;  // Authentification SMTP active
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Gmail REQUIERT Le transfert securise
         $mail->Host = 'smtp.gmail.com';
-        $mail->Port = 465;
-        $mail->Username = $to;
+        $mail->Port = 587;
+        $mail->Username = $from;
         $mail->Password = $psswd;
         $mail->SetFrom($from, $from_name);
         $mail->Subject = $subject;

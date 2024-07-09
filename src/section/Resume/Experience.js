@@ -7,7 +7,7 @@ const Experience = () => {
     <div className='app__we section'>
         <h1>WorkExperience</h1>
         {
-          workExp.map((we,key)=>{
+          workExp.map((we, key)=>{
             return(
               <div className={we} key={we+key}>
                 <h2>{we.title}</h2>

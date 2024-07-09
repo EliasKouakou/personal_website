@@ -1,4 +1,5 @@
 import React from 'react'
+import { BrowserRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import './Posts.scss'
 import {Layout}from '../../wrapper'
 
@@ -6,8 +7,6 @@ const posts = require("../../assets/Posts_content/posts_content.json")
 console.log(posts)
 
 const Posts = () => {
-
-
   window.onload = () => {
     posts.map((value,key)=>{
       console.log(value.title)
@@ -59,6 +58,20 @@ const Posts = () => {
   return (
     <div className='app__posts section'>
       <h1>Posts</h1>
+      {/* {
+            posts.map((post, index)=>{
+              const Html = () =>{ 
+                const x = document.createElement('p')
+                x.innerHTML = post.html +  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis ab maiores velit, optio vitae sit qui ducimus repudiandae excepturi recusandae facilis id quisquam autem possimus similique harum quos iste." +  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis ab maiores velit, optio vitae sit qui ducimus repudiandae excepturi recusandae facilis id quisquam autem possimus similique harum quos iste."
+                console.log(x)
+                return (
+                  <div className={`${post.title}`}>
+                    {x}
+                  </div>
+                )
+              }
+          })
+        } */}
       <div className='post__content'></div>
     </div>
   )

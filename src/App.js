@@ -20,7 +20,7 @@ function App() {
         <Route path='Projects/Automative' element={<Automotive/>} />
         <Route path='/Posts' element={<Posts/>}/>
         {
-            posts.map((post,index)=>{
+            posts.map((post, index)=>{
               const Html = () =>{ 
                 const x = document.createElement('p')
                 x.innerHTML = post.html +  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis ab maiores velit, optio vitae sit qui ducimus repudiandae excepturi recusandae facilis id quisquam autem possimus similique harum quos iste." +  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nobis ab maiores velit, optio vitae sit qui ducimus repudiandae excepturi recusandae facilis id quisquam autem possimus similique harum quos iste."
@@ -31,7 +31,6 @@ function App() {
                   </div>
                 )
               }
-            
             return (
               <Route path={`/Posts/${post.title}`} element={Layout(<Html/>)}/>
             )
