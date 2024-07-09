@@ -11,18 +11,20 @@ const Contact = () => {
   
   return (
     <div className='app__contact section'>
-      <form action='' target=''>
+      <form  action='http://localhost:8000/server.php' method="POST">
         <label htmlFor='name'><h1>Name</h1></label>
         <input type={"text"} name="name"  placeholder="name" required/>
         <label htmlFor='mail'><h1>eMail </h1></label>
         <input type={"email"} name="mail" placeholder='xxxxxx@yyy.zzz' required/>
+        <label htmlFor='subject'><h1>Subject </h1></label>
+        <input type={"text"} name="subject" placeholder='...' required/>
         <label htmlFor='message'><h1>Message</h1></label>
         <textarea name='message' placeholder='...' required />
         <input className='btn' type={"submit"} value="Send"/>
         </form>
         <br/>
         <br/>
-        <h1 className='p-text'>Or just email me directly at : <a href='mailto:elimikouakou@gmail.com'>elimikouakou@gmail.com</a></h1>
+        <h1 className='p-text'>Or just email me directly at : <a href='mailto:elmichaellangelo@gmail.com'>elmichaellangelo@gmail.com</a></h1>
         <div className='urls'>
               {
                   ["linkedin","github","gitlab"].map((value,key)=>{

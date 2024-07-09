@@ -20,6 +20,7 @@ const software2 = [
     require("../../assets/Software/Houdini.png"),
     require("../../assets/Software/MarvelousDesign.png"),
     require( "../../assets/Software/Zbrush.jpg"),
+    require( "../../assets/Software/Godot.png"),
     
 ]
 const software3 = [
@@ -31,7 +32,8 @@ const software3 = [
     require("../../assets/Software/OpenRocket.webp"),
     require("../../assets/Software/Keil.png"),
     require( "../../assets/Software/Quartus.jpg"),
-    // require( "../../assets/Software/Simscale.jpg"),
+    require( "../../assets/Software/Simscale.jpg"),
+    require( "../../assets/Software/ntopology.png"),
     
 ]
 
